@@ -105,10 +105,28 @@ li{
     font-weight: bold;
 }
 .learn-more{
-    border: 3px solid #00f;
-    width: 20vh;
-    height: 7vh;
-    overflow:hidden;
+    /* border: 1.5px solid #000; */
+    width: 100%;
     margin: 3% auto;
     text-align: center;
+}
+.button{
+    border: 1.5px solid #000;
+    width: 20vh;
+    margin: auto;
+    height: 7vh;
+    background-color: #fff;
+    color: #000;
+    padding-top: 1%;
+    overflow: hidden;
+    font-size: 20px;
+}
+.button-link{
+    text-decoration: none;
+}
+.button-link:visited{
+    color: #000;
+}
+.button:hover{
+    background-color: #ddd;
 }
