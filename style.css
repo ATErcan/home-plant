@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border: 3px solid #000;
+    width: 100%;
+    margin: auto;
+    padding: 3vh; /* The potential height of the nav section. */
+    display: flex;
+    /* justify-items: center; */
+}
+.name{
+    border: 3px solid #f00;
+    width: 30%;
+    padding: 20px;
+    text-align: left;
+}
+#name{
+    font-size: 6vh;
+}
+.menu{
+    border: 3px solid #f00;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    margin-left: 20%;
+    text-align: right;
+    justify-content: right;
+    justify-items: center;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 4vh;
+}
