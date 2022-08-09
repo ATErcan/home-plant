@@ -7,7 +7,7 @@
     border: 3px solid #000;
     width: 100%;
     margin: auto;
-    padding: 3vh; /* The potential height of the nav section. */
+    /* The potential height of the nav section. */
     display: flex;
     /* justify-items: center; */
 }
@@ -18,7 +18,7 @@
     text-align: left;
 }
 #name{
-    font-size: 6vh;
+    font-size: 4vh;
 }
 .menu{
     border: 3px solid #f00;
@@ -36,7 +36,7 @@ li{
 }
 .nav-links{
     text-decoration: none;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .header{
     border: 3px solid #0f0;
@@ -44,7 +44,7 @@ li{
     margin: 3% auto 1%;
 }
 #title{
-    font-size: 7vh;
+    font-size: 5vh;
     text-align: center;
 }
 .description{
@@ -58,8 +58,57 @@ li{
 .box{
     border: 2px solid #000;
     width: 20%;
-    height: 400px;
+    /* height: 400px; */
     display:inline-block;
     margin-left: 10%;
     margin-top: 3%;
+}
+.plant{
+    border: 2px solid #f00;
+    width: 100%;
+    position: relative;
+}
+#plant1{
+    /* background-image: url(./img/plant-1.jpeg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+#plant2{
+    /* background-image: url(./img/plant-2.jpeg); */
+    width: 100%;
+}
+#plant3{
+    /* background-image: url(./img/plant-3.jpeg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.price{
+    border: 2px solid #0f0;
+    width: 86%;
+    /* height: 40%; */
+    margin: auto;
+    margin-top: -10%;
+    background-color: #fff;
+}
+.price p{
+    font-size: 20px;
+    text-align: center;
+}
+.price .dollar{
+    margin-top: 15%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.learn-more{
+    border: 3px solid #00f;
+    width: 20vh;
+    height: 7vh;
+    overflow:hidden;
+    margin: 3% auto;
+    text-align: center;
 }
