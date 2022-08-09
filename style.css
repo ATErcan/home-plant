@@ -38,3 +38,28 @@ li{
     text-decoration: none;
     font-size: 4vh;
 }
+.header{
+    border: 3px solid #0f0;
+    width: 100%;
+    margin: 3% auto 1%;
+}
+#title{
+    font-size: 7vh;
+    text-align: center;
+}
+.description{
+    border: 3px solid #00f;
+    width: 100%;
+}
+#text{
+    text-align: center;
+    font-size: 2vh;
+}
+.box{
+    border: 2px solid #000;
+    width: 20%;
+    height: 400px;
+    display:inline-block;
+    margin-left: 10%;
+    margin-top: 3%;
+}
